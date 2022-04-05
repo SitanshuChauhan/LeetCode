@@ -1,9 +1,8 @@
-
 //https://leetcode.com/problems/two-sum/
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int i,j;
+      int i,j;
         int []a=new int[2];
         for(i=0;i<nums.length;i++)
             for(j=i+1;j<nums.length;j++)
@@ -13,6 +12,6 @@ class Solution {
                     i=nums.length;
                     break;
                 }
-        return a;
+        return a;  
     }
 }
